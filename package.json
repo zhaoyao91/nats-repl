@@ -1,0 +1,11 @@
+{
+  "name": "nats-repl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "zhaoyao91 <zhaoyao91@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "env-pino": "^1.0.1",
+    "nats": "^0.7.20"
+  }
+}
