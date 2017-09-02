@@ -7,8 +7,7 @@ Docker image to launch a node repl container to help debug nats.
 First, launch the container
 
 ```
-docker run --rm -it -e NATS_URL=$nats-server-url zhaoyao91/na
-ts-repl
+docker run --rm -it -e NATS_URL=$nats-server-url zhaoyao91/nats-repl
 ```
 
 Then you will be in a node repl with `nats` variable initialized.
